@@ -24,8 +24,18 @@
     --font-size: 14px;
 }
 
+#Site{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#ButtonsDiv{
+    width: 100%;
+}
+
 h1 {
     font-family: 'Montserrat Bold';
+    margin-bottom: 5%;
 }
 
 #protip{
@@ -84,7 +94,7 @@ button {
     padding: 2px;
     font-family: 'Montserrat Light';
     font-size: 12pt;
-    width: 40%;
+    width: 20%;
     border-radius: 2px;
     background-color: var(--highlight-color);
     border-color: var(--highlight-color);
