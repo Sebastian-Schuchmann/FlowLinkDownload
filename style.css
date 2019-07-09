@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("Assets/Fonts/Montserrat-Medium.otf");
+}
+
+@font-face {
+    font-family: "Vollkorn Regular";
+    src: url("Assets/Fonts/Vollkorn-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Light";
+    src: url("Assets/Fonts/Montserrat-Light.otf");
+}
+
+:root {
+    --background-color: #212121;
+    --background-color-alpha: rgba(21, 21, 21, 0.921);
+    --text-color: #dfdfdf;
+    --highlight-color: #FB3E39;
+    --disabled-color: #303030;
+    --secondary-color: #3e3e3e;
+    --window-border-radius: 6px;
+    --font-size: 14px;
+}
+
+h1 {
+    font-family: 'Montserrat Bold';
+}
+
+#protip{
+    font-size: 8pt;
+    text-align: center;
+    margin-top: 24%;
+    color:#dfdfdf41;
+}
+
+body {
+    background-color: var(--background-color-alpha);
+    font-family: 'Montserrat Light';
+    font-size: 12pt;
+    color: var(--text-color);
+}
+
+datalist {
+    font-family: 'Montserrat Light';
+    font-size: 12pt;
+
+}
+
+h1 {
+    font-family: 'Montserrat Bold';
+    color: var(--text-color);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat Bold';
+    color: var(--text-color);
+}
+
+input {
+    font-family: 'Montserrat Light';
+    font-size: 12pt;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 3px;
+}
+
+::placeholder {
+    color: #0000002e;
+
+}
+
+button:focus {
+    outline: none;
+}
+
+button {
+    margin-top: 16px;
+    padding: 2px;
+    font-family: 'Montserrat Light';
+    font-size: 12pt;
+    width: 40%;
+    border-radius: 2px;
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    color: var(--text-color);
+}
+
+button:disabled {
+    background-color: var(--disabled-color);
+    border-color: var(--disabled-color);
+}
+
+#Start_Timer_Button {
+    width: 57.7%;
+    color: var(--text-color);
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+}
+
+#Start_Timer_Button:disabled {
+    width: 57.7%;
+    color: var(--text-color);
+    background-color: var(--disabled-color);
+    border-color: var(--disabled-color);
+}
+
+
+#TimerButtons {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+input[type=text] {
+    font-family: 'Montserrat Light';
+
+    font-size: 12pt;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+
+
+#slider .rs-handle {
+    background-color: var(--text-color);
+    border-width: 6px !important;
+    border-color: var(--background-color);
+    width: 15px !important;
+    height: 15px !important;
+    margin: -5.5px 0px 0px -4px !important;
+}
+
+#slider .rs-border {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+#slider .rs-tooltip-text {
+    font-family: 'Montserrat Bold';
+    font-size: 42pt;
+    color: var(--text-color);
+}
+
+.rs-control .rs-range-color {
+    background-color: var(--highlight-color);
+}
+
+.rs-control .rs-path-color {
+    background-color: var(--text-color);
+}
+
+.rs-control .rs-bg-color {
+    background-color: var(--background-color);
+}
+
+#slider {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+#timer {
+    text-align: center
+}
+
+#Countdown {
+    position: absolute;
+    font-family: 'Montserrat Bold';
+    font-size: 32pt;
+    margin-left: 60px;
+    margin-top: 75px;
+    z-index: 100;
+
+}
